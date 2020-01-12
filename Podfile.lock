@@ -1,34 +1,56 @@
 PODS:
   - Alamofire (5.0.0-rc.3)
+  - CocoaLumberjack/Core (3.6.0)
+  - CocoaLumberjack/Swift (3.6.0):
+    - CocoaLumberjack/Core
+  - Realm (4.3.0):
+    - Realm/Headers (= 4.3.0)
+  - Realm/Headers (4.3.0)
+  - RealmSwift (4.3.0):
+    - Realm (= 4.3.0)
   - RxCocoa (5.0.1):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
   - RxRelay (5.0.1):
     - RxSwift (~> 5)
   - RxSwift (5.0.1)
+  - SDWebImage (5.4.2):
+    - SDWebImage/Core (= 5.4.2)
+  - SDWebImage/Core (5.4.2)
   - SwiftyJSON (4.3.0)
 
 DEPENDENCIES:
   - Alamofire (~> 5.0.0-rc.3)
+  - CocoaLumberjack/Swift
+  - RealmSwift
   - RxCocoa (~> 5)
   - RxSwift (~> 5)
+  - SDWebImage
   - SwiftyJSON (~> 4.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Alamofire
+    - CocoaLumberjack
+    - Realm
+    - RealmSwift
     - RxCocoa
     - RxRelay
     - RxSwift
+    - SDWebImage
     - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: ca8c0de6906873be89d6deec5c8de279e00bf872
+  CocoaLumberjack: 78b0c238666f4f58db069738ec176f4519557516
+  Realm: 9357c3589555793e1860a7104a7412bca4a48d99
+  RealmSwift: 402f1e379a8ef82c635313037b043f0f06de880c
   RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
   RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
   RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
+  SDWebImage: 4ca2dc4eefae4224bea8f504251cda485a363745
   SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
 
-PODFILE CHECKSUM: 787d55740a0baa75b7d265b42246b7ffea791342
+PODFILE CHECKSUM: 4de073df0a4451ad58d20338899eef092914d5cb
 
 COCOAPODS: 1.8.4

@@ -3,13 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		230A29C5E0C2899EBE5A9695 /* Pods_NeteaseMusicApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5532A3F19D21E21580210B22 /* Pods_NeteaseMusicApp.framework */; };
 		4C8CCC41F1C783C246809D09 /* Pods_NeteaseMusicApp_NeteaseMusicAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3818BC83B728243A3C2F77ED /* Pods_NeteaseMusicApp_NeteaseMusicAppUITests.framework */; };
 		4C8FD731A349B75BAD9BE9C6 /* Pods_NeteaseMusicAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9087A3B6AE5CE917CF5F4CC7 /* Pods_NeteaseMusicAppTests.framework */; };
+		843A1A8923CB0D4C0011F931 /* NELogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A1A8823CB0D4C0011F931 /* NELogger.swift */; };
+		843A1A8B23CB0DD50011F931 /* NENetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A1A8A23CB0DD50011F931 /* NENetworkManager.swift */; };
+		843A1A8D23CB0DFD0011F931 /* NECacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A1A8C23CB0DFD0011F931 /* NECacheManager.swift */; };
+		843A1A8F23CB0E380011F931 /* NEHomeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A1A8E23CB0E380011F931 /* NEHomeContentView.swift */; };
+		843A1A9123CB0E580011F931 /* NEMusicPlayContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A1A9023CB0E580011F931 /* NEMusicPlayContentView.swift */; };
+		843A1A9323CB0E870011F931 /* NEMVPlayContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A1A9223CB0E870011F931 /* NEMVPlayContentView.swift */; };
+		843A1A9523CB0EA00011F931 /* NEMineContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843A1A9423CB0EA00011F931 /* NEMineContentView.swift */; };
 		84A48FEC23CA107200D111E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A48FEB23CA107200D111E0 /* AppDelegate.swift */; };
 		84A48FEE23CA107200D111E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A48FED23CA107200D111E0 /* SceneDelegate.swift */; };
 		84A48FF023CA107200D111E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A48FEF23CA107200D111E0 /* ContentView.swift */; };
@@ -43,6 +50,13 @@
 		5532A3F19D21E21580210B22 /* Pods_NeteaseMusicApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NeteaseMusicApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		63DB883C2B6138FB2D95A529 /* Pods-NeteaseMusicApp-NeteaseMusicAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeteaseMusicApp-NeteaseMusicAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-NeteaseMusicApp-NeteaseMusicAppUITests/Pods-NeteaseMusicApp-NeteaseMusicAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		77A3976AFFBD50E48040C1A1 /* Pods-NeteaseMusicApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NeteaseMusicApp.debug.xcconfig"; path = "Target Support Files/Pods-NeteaseMusicApp/Pods-NeteaseMusicApp.debug.xcconfig"; sourceTree = "<group>"; };
+		843A1A8823CB0D4C0011F931 /* NELogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NELogger.swift; sourceTree = "<group>"; };
+		843A1A8A23CB0DD50011F931 /* NENetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NENetworkManager.swift; sourceTree = "<group>"; };
+		843A1A8C23CB0DFD0011F931 /* NECacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NECacheManager.swift; sourceTree = "<group>"; };
+		843A1A8E23CB0E380011F931 /* NEHomeContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEHomeContentView.swift; sourceTree = "<group>"; };
+		843A1A9023CB0E580011F931 /* NEMusicPlayContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEMusicPlayContentView.swift; sourceTree = "<group>"; };
+		843A1A9223CB0E870011F931 /* NEMVPlayContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEMVPlayContentView.swift; sourceTree = "<group>"; };
+		843A1A9423CB0EA00011F931 /* NEMineContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NEMineContentView.swift; sourceTree = "<group>"; };
 		84A48FE823CA107200D111E0 /* NeteaseMusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeteaseMusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A48FEB23CA107200D111E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84A48FED23CA107200D111E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +115,83 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		843A1A7F23CAF9780011F931 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				843A1A8E23CB0E380011F931 /* NEHomeContentView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		843A1A8023CAF9850011F931 /* MusicPlay */ = {
+			isa = PBXGroup;
+			children = (
+				843A1A9023CB0E580011F931 /* NEMusicPlayContentView.swift */,
+			);
+			path = MusicPlay;
+			sourceTree = "<group>";
+		};
+		843A1A8123CAF9970011F931 /* MVPlay */ = {
+			isa = PBXGroup;
+			children = (
+				843A1A9223CB0E870011F931 /* NEMVPlayContentView.swift */,
+			);
+			path = MVPlay;
+			sourceTree = "<group>";
+		};
+		843A1A8223CAF9A00011F931 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				843A1A9423CB0EA00011F931 /* NEMineContentView.swift */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		843A1A8323CB0B250011F931 /* Section */ = {
+			isa = PBXGroup;
+			children = (
+				843A1A7F23CAF9780011F931 /* Home */,
+				843A1A8023CAF9850011F931 /* MusicPlay */,
+				843A1A8123CAF9970011F931 /* MVPlay */,
+				843A1A8223CAF9A00011F931 /* Mine */,
+			);
+			path = Section;
+			sourceTree = "<group>";
+		};
+		843A1A8423CB0B640011F931 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				843A1A8723CB0B880011F931 /* Logger */,
+				843A1A8623CB0B7B0011F931 /* Cache */,
+				843A1A8523CB0B6E0011F931 /* NetWork */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		843A1A8523CB0B6E0011F931 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				843A1A8A23CB0DD50011F931 /* NENetworkManager.swift */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		843A1A8623CB0B7B0011F931 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				843A1A8C23CB0DFD0011F931 /* NECacheManager.swift */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		843A1A8723CB0B880011F931 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				843A1A8823CB0D4C0011F931 /* NELogger.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
 		84A48FDF23CA107200D111E0 = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +223,8 @@
 				84A48FF123CA107900D111E0 /* Assets.xcassets */,
 				84A48FF623CA107900D111E0 /* LaunchScreen.storyboard */,
 				84A48FF923CA107900D111E0 /* Info.plist */,
+				843A1A8423CB0B640011F931 /* Core */,
+				843A1A8323CB0B250011F931 /* Section */,
 				84A48FF323CA107900D111E0 /* Preview Content */,
 			);
 			path = NeteaseMusicApp;
@@ -173,7 +266,6 @@
 				48B509C8F01EC1F6F47CC9A1 /* Pods-NeteaseMusicAppTests.debug.xcconfig */,
 				84F5CE8D2312EF19CDB840AE /* Pods-NeteaseMusicAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -416,9 +508,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843A1A8923CB0D4C0011F931 /* NELogger.swift in Sources */,
 				84A48FEC23CA107200D111E0 /* AppDelegate.swift in Sources */,
 				84A48FEE23CA107200D111E0 /* SceneDelegate.swift in Sources */,
+				843A1A8F23CB0E380011F931 /* NEHomeContentView.swift in Sources */,
 				84A48FF023CA107200D111E0 /* ContentView.swift in Sources */,
+				843A1A8B23CB0DD50011F931 /* NENetworkManager.swift in Sources */,
+				843A1A9523CB0EA00011F931 /* NEMineContentView.swift in Sources */,
+				843A1A8D23CB0DFD0011F931 /* NECacheManager.swift in Sources */,
+				843A1A9123CB0E580011F931 /* NEMusicPlayContentView.swift in Sources */,
+				843A1A9323CB0E870011F931 /* NEMVPlayContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

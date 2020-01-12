@@ -10,6 +10,9 @@ target 'NeteaseMusicApp' do
   pod 'SwiftyJSON', '~> 4.0'
   pod 'RxSwift', '~> 5'
   pod 'RxCocoa', '~> 5'
+  pod 'CocoaLumberjack/Swift'
+  pod 'RealmSwift'
+  pod 'SDWebImage', :modular_headers => true
   # Pods for NeteaseMusicApp
 
   target 'NeteaseMusicAppTests' do
